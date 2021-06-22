@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := samsung
 
-DEVICE_PATH := $(DEVICE_PATH)
+DEVICE_PATH := device/samsung/dreamqlte
 
 ALLOW_MISSING_DEPENDENCIES = true
 
