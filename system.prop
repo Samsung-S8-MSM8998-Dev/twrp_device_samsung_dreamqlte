@@ -1,5 +1,3 @@
-ro.sf.lcd_density=480
-ro.razer.lcd_default_brightness=158
 sys.usb.controller=a800000.dwc3
 ro.hardware.keystore=msm8998
 ro.hardware.gatekeeper=msm8998

@@ -21,19 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit some common omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/razer/cheryl/device.mk)
-
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_cheryl
-PRODUCT_DEVICE := cheryl
-PRODUCT_BRAND := razer
-PRODUCT_MODEL := Phone
-PRODUCT_MANUFACTURER := Razer
-
-PRODUCT_GMS_CLIENTID_BASE := android-razer
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="cheryl-user 8.1.0 OPM1.171019.011-RZR-180803 6033 release-keys"
-
-BUILD_FINGERPRINT=razer/cheryl/cheryl:8.1.0/OPM1.171019.011-RZR-180803/6033:user/release-keys
+PRODUCT_NAME := omni_dreamqlte
+PRODUCT_DEVICE := dreamqlte
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-G9500
+PRODUCT_MANUFACTURER := Samsung

@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_cheryl.mk
+    $(LOCAL_DIR)/omni_dreamqlte.mk
